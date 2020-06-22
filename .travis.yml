@@ -1,0 +1,2 @@
+language: java
+script: mvn -f ./t3/pom.xml
