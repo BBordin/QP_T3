@@ -29,12 +29,12 @@ public class Amazon_sigin_test {
     }
     
     @Test
-    public void testaTitle() {
+    public void testTitle() {
     assertEquals("Authentication required", driver.getTitle());
     }
 
     @Test
-    public void testaLoginDevMedia() {
+    public void testSigIn() {
     driver.findElement(By.id("ap_customer_name")).sendKeys("Qualidade de produto");	
     driver.findElement(By.id("ap_email")).sendKeys("user@email.com.br");
     driver.findElement(By.id("ap_password")).sendKeys("Wejasuidhqs7884");
